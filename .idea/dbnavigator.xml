@@ -27,8 +27,8 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b0048aaa-aa16-4d65-8188-26a86d43fafa">
-      <console name="Django-Blog" type="STANDARD" schema="public" session="Pool"><![CDATA[--select * from blogi_post;
-select * from auth_user;]]></console>
+      <console name="Django-Blog" type="STANDARD" schema="public" session="Pool"><![CDATA[select * from blogi_post;
+--select * from auth_user;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
