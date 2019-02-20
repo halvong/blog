@@ -26,14 +26,18 @@
     <loaded-nodes>
       <connection connection-id="b0048aaa-aa16-4d65-8188-26a86d43fafa">
         <schema name="pg_catalog" object-types="function" />
-        <schema name="public" object-types="view, function, table, sequence" />
+        <schema name="public" object-types="constraint, index, dataset trigger, column, table, sequence, function, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b0048aaa-aa16-4d65-8188-26a86d43fafa">
-      <console name="Django-Blog" type="STANDARD" schema="public" session="Pool">select * from blogi_post;
---select * from auth_user;</console>
+      <console name="Django-Blog" type="STANDARD" schema="public" session="Pool"><![CDATA[--select * from blogi_comment;
+--select * from auth_user;
+select * from blogi_post;
+select * from taggit_tag;
+
+select tt.content_type_id, tt."id", tt.object_id, tt.tag_id from taggit_taggeditem tt;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
