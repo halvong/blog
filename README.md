@@ -1,6 +1,6 @@
 Django2, Apress PDF
-2/16, Sat
-pg 53
+2/20, Wed
+pg 73
 
 #superuser
 hal:hal
