@@ -1,4 +1,5 @@
 {% extends "blogi/base.html" %}
+{% load blog_tags %}
 
 {% block title %}
 
@@ -8,11 +9,11 @@
 
 {% block content %}
 
-    <h1>{{ post.title }}</h1>
+    <h1>{{ post.title }} (detail.html)</h1>
     <p class="date">
     Published {{ post.publish }} by {{ post.author }}
     </p>
-    {{ post.body|linebreaks }}
+    {{ post.body|markdown }}
 
     <p>
         <a href="{% url "blogi:post_share" post.id %}">

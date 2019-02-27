@@ -1,6 +1,6 @@
 Django2, Apress PDF
-2/20, Wed
-pg 73
+2/27, Wed
+pg 85
 
 #superuser
 hal:hal
@@ -22,7 +22,8 @@ anEstYra
 8. docker-compose exec web python manage.py shell 
 9. docker-compose exec database psql -U postgres -h database
 10. exec(open('script.py').read())
-11. docker-compose up -d --build web
+11. docker-compose stop web
+    docker-compose up --build -d web
 
 
 #
