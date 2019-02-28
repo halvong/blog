@@ -13,6 +13,7 @@
         {% endblock %}
     </div>
     <div id="sidebar">
+
         <h2>My blog. (base.html)</h2>
         <p>This is my blog. I've written {% total_posts %} posts so far.</p>
 
@@ -29,6 +30,7 @@
             {% endfor %}
         </ul>
 
+        <p><a href="{% url "blogi:post_feed" %}">Subscribe to my RSS feed</a></p>
     </div>
 </body>
 </html>
