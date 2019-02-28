@@ -1,6 +1,7 @@
 Django2, Apress PDF
-2/27, Wed
-pg 85
+2/28, Wed
+pg 97, Done with Chp3, Extending your Blog. 
+
 
 #superuser
 hal:hal
